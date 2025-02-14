@@ -1,4 +1,4 @@
-# Proyecto -SWars API
+                                # Proyecto -SWars API
 La SWars API te permite interactuar con datos relacionados con el universo de Star Wars, específicamente con información de planetas y personas. Esta API está diseñada para ser sencilla y fácil de usar.
 
 
@@ -81,7 +81,7 @@ Antes de clonar y ejecutar el proyecto, debes tener configurado lo siguiente en 
 - Configura las variables de entorno locales necesarias para la ejecución del proyecto de forma offline. Puedes hacerlo creando un archivo `.env` en la raíz de tu proyecto con el siguiente contenido:
 
 ```plaintext
-DATABASE_URL=mysql://admin:Inicios20222022$$$$$$@reto.ctpzjqve1cts.us-east-2.rds.amazonaws.com:3306/reto
+DATABASE_URL=mysql://admin:Inicios20222022$$$$$$@database-dev.ctpzjqve1cts.us-east-2.rds.amazonaws.com:3306/reto
 SWAPI_BASE_URL= "http://swapi.py4e.com/api"
 ```
 
@@ -94,6 +94,13 @@ git clone https://github.com/sistemas0011ff/reto-servlees-swapi.git
 ```
 #### Instalar las dependencias del proyecto
 
+```
+
+#### Acceder a la carpeta del proyecto
+
+```bash
+cd reto-servlees-swapi
+```
 
 #### Ejecutar el proyecto en local
 
@@ -104,13 +111,7 @@ npm install -g serverless@3.32.1 (opcional)
 npm install --save-dev typescript (opcional)
 npm install mysql2 aws-sdk (opcional)
 npm install --save-dev serverless-webpack@latest (opcional)
-```
 
-#### Acceder a la carpeta del proyecto
-
-```bash
-cd servlees-swap
-```
 
 #### Ejecutar el proyecto en modo offline
 
@@ -125,10 +126,7 @@ cd servlees-swap
 
 npm run start
 ```
-Evidencia de despliegue:
-![Local1](images/Local_1.png)
-![Local2](images/Local_2.png)
-![Local3](images/Local_3.png)
+
 
 #### Ejecutar el proyecto para desplegar en AWS
 
@@ -142,6 +140,8 @@ Evidencia de despliegue:
 
 
 #### Endpoints de la API
+SAGGER:
+https://0nvszuugn6.execute-api.us-east-2.amazonaws.com/dev/docs
 ![Consulta Api Externa](images/swgger.png)
 ### Planetas
 

@@ -1,4 +1,4 @@
-service: my-serverless-project
+  service: my-serverless-project
 
 plugins:
   - serverless-webpack
@@ -17,7 +17,7 @@ provider:
   name: aws
   runtime: nodejs18.x
   stage: dev
-  region: us-east-2
+  region: us-east-2   
   environment:
     DATABASE_URL: ${ssm:/swapi/reto/DATABASE_URL}
     SWAPI_BASE_URL: ${ssm:/swapi/reto/SWAPI_BASE_URL}

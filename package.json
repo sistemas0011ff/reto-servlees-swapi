@@ -12,7 +12,7 @@
     "predeploy": "npm run build && npm run validate-aws && npm run validate-db && npm run prisma:generate && npm run prisma:migrate",
     "deploy": "serverless deploy",
     "start": "npm run predeploy && serverless offline",
-    "clean": "rm -rf dist/", 
+    "clean": "rm -rf dist/",
     "test": "npm run clean && npm run build && jest"
   },
   "keywords": [],
@@ -31,19 +31,20 @@
     "prisma": "^5.8.1",
     "serverless-offline": "^13.3.3",
     "serverless-plugin-scripts": "^1.0.2",
-    "serverless-webpack": "^5.14.1",
+    "serverless-webpack": "^5.15.0",
     "ts-jest": "^29.1.2",
     "ts-loader": "^9.5.1",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.5.4",
+    "typescript": "^5.7.3",
     "webpack": "^5.89.0"
   },
   "dependencies": {
     "@prisma/client": "^5.8.1",
+    "aws-sdk": "^2.1692.0",
     "aws-serverless-express": "^3.4.0",
     "axios": "^1.6.5",
     "http-status": "^1.7.3",
-    "mysql2": "^3.11.0",
+    "mysql2": "^3.12.0",
     "swagger-ui-express": "^5.0.0",
     "typedi": "^0.10.0"
   }
